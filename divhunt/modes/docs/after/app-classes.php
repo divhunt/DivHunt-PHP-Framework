@@ -1,7 +1,5 @@
 <?php
 
-    <?php
-
     /* 
      * Framework Load class
      */
@@ -19,7 +17,7 @@
      */
 
     DivHunt::class('block')->from('divhunt/addons/classes');
-   
+
     /* 
      * Block class and default paths
      */
