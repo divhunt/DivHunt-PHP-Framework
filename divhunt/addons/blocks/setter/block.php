@@ -63,8 +63,8 @@
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" />
             <?php } ?>
 
-            <?=load::cssRender(site::get('id'))?>
-            <?=load::jsRender(site::get('id'))?>
+            <?=load::cssRender(1)?>
+            <?=load::jsRender(1)?>
 
             <meta charset="utf-8" />
             <meta name="referrer" content="origin">
