@@ -21,3 +21,8 @@
         $divhunt->logging(true, true, true);
     	$divhunt->develop(true);
     });
+
+    if(get('mode') !== 'docs')
+    {
+        DivHunt::reload('/?mode=docs');
+    }
