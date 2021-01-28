@@ -1,14 +1,3 @@
 <a href="<?=route::getPath('docs')?>?mode=docs">
-    <div class="dh-logo">
-        <div class="icon">
-            <div class="before"></div>
-            <div class="after"></div>
-            <div class="center"></div>
-            <div class="wrap"></div>
-        </div>
-
-        <div class="name">
-            DivHunt <span class="mode">Docs</span>
-        </div>
-    </div>
+    <img src="https://orweek.com/temp/logo.svg">
 </a>
