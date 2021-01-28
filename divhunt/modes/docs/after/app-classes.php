@@ -29,5 +29,11 @@
      * Load static files
      */
 
-    load::css('docs', DivHunt::getPath() . 'divhunt', 1);
-    load::js('docs', DivHunt::getPath() . 'divhunt', 1);
+    load::css('dh_libraries', DivHunt::getPath() . 'divhunt/addons/libraries', -1);
+    load::js('dh_libraries', DivHunt::getPath() . 'divhunt/addons/libraries', -1);
+
+    load::css('dh_blocks', DivHunt::getPath() . 'divhunt/addons/blocks', 1);
+    load::js('dh_blocks', DivHunt::getPath() . 'divhunt/addons/blocks', 1);
+
+    load::css('dh_modes', DivHunt::getPath() . 'divhunt/modes', 1);
+    load::js('dh_modes', DivHunt::getPath() . 'divhunt/modes', 1);
