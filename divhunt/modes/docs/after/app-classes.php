@@ -24,3 +24,10 @@
 
     block::setPath('framework', '/divhunt/addons/blocks/');
     block::setPath('docs', '/divhunt/modes/docs/after/packages/blocks/');
+
+    /* 
+     * Load static files
+     */
+
+    load::css('docs', DivHunt::getPath() . 'divhunt', 1);
+    load::js('docs', DivHunt::getPath() . 'divhunt', 1);

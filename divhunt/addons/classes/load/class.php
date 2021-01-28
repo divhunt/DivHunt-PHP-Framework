@@ -17,6 +17,3 @@
 
         public static $load = ['css' => [], 'js' => []];
     }
-
-    // load::css('docs', DivHunt::getPath() . 'divhunt', 1);
-    // load::js('docs', DivHunt::getPath() . 'divhunt', 1);
