@@ -1,0 +1,95 @@
+/* [Default] */
+
+    .content 
+    {
+        max-width: 1140px!important;
+        margin: 0 auto!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        width: 100%!important;
+    }
+
+    .contentfull
+    {
+        max-width: 100%!important;
+        margin: 0 auto!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        width: 100%!important;
+    }
+
+    .content400
+    {
+        max-width: 400px!important;
+        margin: 0 auto!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        width: 100%!important;
+    }
+
+    .content600
+    {
+        max-width: 600px!important;
+        margin: 0 auto!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        width: 100%!important;
+    }
+
+    .content800
+    {
+        max-width: 800px!important;
+        margin: 0 auto!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        width: 100%!important;
+    }
+
+    .content1000
+    {
+        max-width: 1000px!important;
+        margin: 0 auto!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        width: 100%!important;
+    }
+
+    .content1200
+    {
+        max-width: 1200px!important;
+        margin: 0 auto!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        width: 100%!important;
+    }
+
+    .content1400
+    {
+        max-width: 1400px!important;
+        margin: 0 auto!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        width: 100%!important;
+    }
+
+    .content1600
+    {
+        max-width: 1600px!important;
+        margin: 0 auto!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        width: 100%!important;
+    }
+
+/* [Aligns] */
+
+    .content-middle
+    {
+        display: -webkit-box!important;
+        display: -webkit-flex!important;
+        display: flex!important;
+        -webkit-flex-direction: column!important;
+        flex-direction: column!important;
+        -webkit-justify-content: center!important;
+        justify-content: center!important;
+    }

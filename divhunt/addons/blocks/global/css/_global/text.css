@@ -1,0 +1,82 @@
+/* [Default] */
+
+    .ttupper
+    {
+        text-transform: uppercase!important;
+    }
+
+    .ttcapit
+    {
+        text-transform: capitalize!important;
+    }
+
+    .ttlower
+    {
+        text-transform: lowercase!important;
+    }
+
+    .ttinit
+    {
+        text-transform: initial!important;
+    }
+
+/* [Alings] */
+
+    .tac
+    {
+        text-align: center!important;
+    }
+
+    .tal
+    {
+        text-align: left!important;
+    }
+
+    .tar
+    {
+        text-align: right!important;
+    }
+
+    .tar
+    {
+        text-align: justify!important;
+    }
+
+
+/* [Ellipsis] */
+
+    .ellipsis1
+    {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    .ellipsis2
+    {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .ellipsis4
+    {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+    .ellipsis5
+    {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }

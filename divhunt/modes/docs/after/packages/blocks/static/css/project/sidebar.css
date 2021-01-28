@@ -1,0 +1,85 @@
+.dh-docs-project-sidebar
+{
+    height: calc(100vh - 50px);
+    width: 100%;
+    z-index: 1000;
+    padding-top: 15px;
+    overflow: auto;
+}
+
+.dh-docs-project-sidebar a
+{
+    display: block;
+    color: var(--dh-tp10);
+    font-size: 14px;
+    padding: 0 15px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    padding-top: 0;
+}
+
+.dh-docs-project-sidebar a.sub
+{
+    padding: 8px 15px;
+    font-size: 13px;
+    background: unset;
+    font-weight: 400;
+    border-bottom: unset;
+    color: var(--dh-tp08);
+}
+
+.dh-docs-project-sidebar a.sub:hover
+{
+    font-weight: 500;
+    color: var(--dh-tp10);
+}
+
+.dh-docs-project-sidebar a.active
+{
+    color: var(--dh-brp10);
+}
+
+.dh-docs-project-sidebar a.sub.active
+{
+    font-weight: 500;
+    border-left: 3px solid var(--dh-brp10);
+    padding-left: 12px;
+}
+
+.dh-docs-project-sidebar a.sub.active
+{
+    font-weight: 500;
+    color: var(--dh-tp10);
+}
+
+.dh-docs-project-sidebar .page
+{
+    border-bottom: 1px solid var(--dh-bc01);
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.dh-docs-project-sidebar .return
+{
+    margin: 15px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.dh-docs-project-sidebar .return i
+{
+    width: 15px;
+    max-width: 0px;
+    opacity: 0;
+    transition: 0.3s;
+    position: relative;
+    top: 0.5px;
+}
+
+.dh-docs-project-sidebar .return:hover i
+{
+    max-width: 15px;
+    opacity: 1;
+}

@@ -1,0 +1,100 @@
+/* [Default] */
+
+    .flex
+    {
+        display: flex!important;
+    }
+
+/* [Options] */
+
+    .flex.jcce
+    {
+        justify-content: center!important;
+    }
+
+    .flex.jcsa
+    {
+        justify-content: space-around!important;
+    }
+
+    .flex.jcsb
+    {
+        justify-content: space-between!important;
+    }
+
+    .flex.jcse
+    {
+        justify-content: space-evenly!important;
+    }
+
+    .flex.jsfs
+    {
+        justify-content: flex-start!important;
+    }
+
+    .flex.jcfe
+    {
+        justify-content: flex-end!important;
+    }
+
+    .flex.wrap
+    {
+        flex-wrap: wrap!important;
+    }
+
+    .flex.shrink0
+    {
+        flex-shrink: 0!important;
+    }
+
+    .flex.shrink1
+    {
+        flex-shrink: 1!important;
+    }
+
+    .flex.shrink2
+    {
+        flex-shrink: 2!important;
+    }
+
+    .flex.grow1
+    {
+        flex-grow: 1!important;
+    }
+
+    .flex.grow2
+    {
+        flex-grow: 2!important;
+    }
+
+    .flex.grow3
+    {
+        flex-grow: 3!important;
+    }
+
+/* [Flex's] */
+
+    .flex1
+    {
+        flex: 1!important;
+    }
+
+    .flex2
+    {
+        flex: 2!important;
+    }
+
+    .flex3
+    {
+        flex: 3!important;
+    }
+
+    .flex4
+    {
+        flex: 4!important;
+    }
+
+    .flex5
+    {
+        flex: 5!important;
+    }

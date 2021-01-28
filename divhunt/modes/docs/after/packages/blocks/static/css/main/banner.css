@@ -1,0 +1,25 @@
+.dh-docs-banner
+{
+    padding: 75px 35px;
+    background: linear-gradient(90deg, var(--dh-brp10) 0%, var(--dh-brs10) 100%);
+    border-radius: 5px;
+    color: var(--dh-ts10);
+    position: relative;
+}
+
+.dh-docs-banner p
+{
+    margin-top: 7.5px;
+}
+
+.dh-docs-banner i
+{
+    position: absolute;
+    font-size: 150px;
+    right: 50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 150px;
+    color: var(--dh-tp01);
+}

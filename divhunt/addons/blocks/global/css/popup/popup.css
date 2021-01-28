@@ -1,0 +1,44 @@
+#popup
+{
+    z-index: 100000000000;
+    position: relative;
+}
+
+.popup
+{
+    position: fixed;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.popup.full
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.popup .overlay
+{
+    position: fixed;
+    background: rgb(11 17 25 / 20%);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000000;
+}
+
+.popup .area
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    margin: auto;
+    max-width: 300px;
+    z-index: 1000001;
+}

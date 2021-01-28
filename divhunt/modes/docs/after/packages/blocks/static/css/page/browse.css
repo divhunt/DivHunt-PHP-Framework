@@ -1,0 +1,73 @@
+.dh-docs-page-browse .page
+{
+    background: var(--dh-bgp00);
+    border: 1px solid var(--dh-bc01);
+    padding: 15px;
+    opacity: 0;
+    transform: translateX(10%);
+    color: var(--dh-tp10);
+    border-radius: 5px;
+}
+
+.dh-docs-page-browse .category
+{
+    font-weight: 700;
+    margin-bottom: 14px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.dh-docs-page-browse .page:hover
+{
+    border: 1px solid var(--dh-bc03);
+}
+
+.dh-docs-page-browse .page h3 a
+{
+    color: var(--dh-tp10);
+}
+
+.dh-docs-page-browse .page h3 span
+{
+    background: var(--dh-success01);
+    color: var(--dh-success10);
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 1px;
+    padding-right: 5px;
+    margin-left: 1px;
+}
+
+.dh-docs-page-browse .page p
+{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 7.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 36px;
+    margin-bottom: 5px;
+}
+
+.dh-docs-page-browse .page .tags
+{
+    margin-bottom: 10px;
+}
+
+.dh-docs-page-browse .page .tag
+{
+    background: var(--dh-brp01);
+    color: var(--dh-brp10);
+    display: inline-block;
+    font-size: 12px;
+}
+
+.dh-docs-page-browse .page .tag:hover
+{
+    text-decoration: underline;
+}

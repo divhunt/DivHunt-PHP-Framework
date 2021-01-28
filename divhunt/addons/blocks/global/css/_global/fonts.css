@@ -1,0 +1,11 @@
+/* [Default] */
+
+    .ffp
+    {
+        font-family: var(--dh-fp)!important;
+    }
+
+    .ffs
+    {
+        font-family: var(--dh-fs)!!important;
+    }

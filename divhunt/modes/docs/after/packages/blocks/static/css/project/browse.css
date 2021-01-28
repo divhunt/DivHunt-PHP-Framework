@@ -1,0 +1,65 @@
+.dh-docs-project-browse .project
+{
+    background: var(--dh-bgp00);
+    border: 1px solid var(--dh-bc01);
+    padding: 15px;
+    opacity: 0;
+    transform: translateX(10%);
+    color: var(--dh-tp10);
+    border-radius: 5px;
+}
+
+.dh-docs-project-browse .project:hover
+{
+    border: 1px solid var(--dh-bc03);
+}
+
+.dh-docs-project-browse .project h3 a
+{
+    color: var(--dh-tp10);
+}
+
+.dh-docs-project-browse .project h3 span
+{
+    background: var(--dh-success01);
+    color: var(--dh-success10);
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 1px;
+    padding-right: 5px;
+    margin-left: 1px;
+}
+
+.dh-docs-project-browse .project p
+{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 7.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 36px;
+    margin-bottom: 5px;
+}
+
+.dh-docs-project-browse .project .tags
+{
+    margin-bottom: 10px;
+}
+
+.dh-docs-project-browse .project .tag
+{
+    background: var(--dh-brp01);
+    color: var(--dh-brp10);
+    display: inline-block;
+    font-size: 12px;
+}
+
+.dh-docs-project-browse .project .tag:hover
+{
+    text-decoration: underline;
+}

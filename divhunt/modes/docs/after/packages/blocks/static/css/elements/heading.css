@@ -1,0 +1,33 @@
+/* [Heading Small] */
+
+    .dh-docs-heading-small
+    {
+        font-weight: 700;
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+
+/* [Heading Big] */
+
+    .dh-docs-heading-big
+    {
+        margin-bottom: 24px;
+    }
+
+    .dh-docs-heading-big.border
+    {
+        border-left: 4px solid var(--dh-brp10);
+        padding-left: 15px;
+    }
+
+    .dh-docs-heading-big h1
+    {
+        font-size: 24px;
+    }
+
+    .dh-docs-heading-big p
+    {
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 7px;
+    }

@@ -1,0 +1,28 @@
+.dh-docs-page-sidebar a
+{
+    border-bottom: 1px solid var(--dh-bc01);
+    padding: 7.5px 0;
+    color: var(--dh-tp10);
+    display: block;
+}
+
+.dh-docs-page-sidebar a:hover
+{
+    font-weight: 500;
+}
+
+.dh-docs-page-sidebar a.active
+{
+    font-weight: 500;
+    border-left: 3px solid var(--dh-brp10);
+    padding-left: 10px;
+}
+
+.dh-docs-page-sidebar .category
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--dh-brp10);
+    margin-top: 20px;
+    font-size: 12px;
+}

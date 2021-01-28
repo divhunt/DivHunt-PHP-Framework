@@ -1,0 +1,9 @@
+.dh-navbar
+{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid var(--dh-bc01);
+}

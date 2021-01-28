@@ -1,0 +1,67 @@
+.dh-docs-page-blocks .block
+{
+    background: var(--dh-bgp00);
+    border: 1px solid var(--dh-bc01);
+    margin-bottom: 30px;
+    opacity: 0;
+    transform: translateY(30%);
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.dh-docs-page-blocks .block.code > .code > pre
+{
+    display: block!important;
+    border-radius: 0px!important;
+}
+
+.dh-docs-page-blocks .block.code > .code
+{
+    padding: 0px!important;
+}
+
+.dh-docs-page-blocks .block.code > .code > .clean
+{
+    display: none!important;
+}
+
+.dh-docs-page-blocks .block.code > h3 > i 
+{
+    color: var(--dh-brp10);
+}
+
+.dh-docs-page-blocks .block > h3
+{
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+}
+
+.dh-docs-page-blocks .block > .code
+{
+    padding: 10px 15px;
+    border-top: 1px solid var(--dh-bc01);
+    max-height: 250px;
+    overflow: auto;
+}
+
+.dh-docs-page-blocks .block > .code > pre
+{
+    margin: 0!important;
+    background: var(--dh-bgs10);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.dh-docs-page-blocks .block > h3 > i 
+{
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    cursor: pointer;
+}

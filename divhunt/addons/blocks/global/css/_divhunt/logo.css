@@ -1,0 +1,97 @@
+/* [Default] */
+
+    .dh-logo 
+    {
+        height: 50px;
+        line-height: 50px;
+        display: flex;
+        color: var(--dh-brp10);
+        overflow: hidden;
+    }
+
+/* [Logo Name] */
+
+    .dh-logo .name 
+    {
+        display: inline;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        color: var(--dh-tp10);
+    }
+
+    .dh-logo .name span
+    {
+        color: var(--dh-brp10);
+        border-left: 2px solid var(--dh-brp10);
+        padding: 1px 5px;
+        margin-left: 5px;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+/* [Logo Icon] */
+
+    .dh-logo .icon
+    {
+        position: relative;
+        height: 55px;
+        width: 27.5px;
+        bottom: 2.5px;
+        margin-left: 1px;
+        margin-right: 10px;
+    }
+
+    .dh-logo .icon .before
+    {
+        width: 0px;
+        height: 0px;
+        border: 13.75px solid transparent;
+        border-bottom-color: var(--dh-brp10);
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .dh-logo .icon .after 
+    {
+        width: 0px;
+        height: 0px;
+        border: 13.75px solid transparent;
+        border-top-color: var(--dh-brp07);
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .dh-logo .icon .center
+    {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: var(--dh-bgs10);
+        width: 7px;
+        height: 7px;
+        margin: auto;
+        border-radius: 1px;
+        transform: rotate(45deg);
+    }
+
+    .dh-logo .icon .wrap
+    {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 21px;
+        height: 21px;
+        margin: auto;
+        border-radius: 1px;
+        transform: rotate(45deg);
+        box-shadow: var(--dh-s12);
+        border-top: 1px solid var(--dh-brp07);
+        border-bottom: 1px solid var(--dh-brp10);
+        border-left: 1px solid var(--dh-brp07);
+        border-right: 1px solid var(--dh-brp10);
+    }
