@@ -7,6 +7,18 @@
     DivHunt::class('load')->from('divhunt/addons/classes');
 
     /* 
+     * Framework Load class
+     */
+
+    DivHunt::class('qb')->from('divhunt/addons/classes');
+
+    /* 
+     * Framework Load class
+     */
+
+    DivHunt::class('db')->from('divhunt/addons/classes');
+
+    /* 
      * Framework Route class
      */
 
